@@ -1,0 +1,62 @@
+.block{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border: 1px inset;
+    //background-color: aqua;
+    background-image: url("mybrick.jpg");
+    background-repeat: no-repeat;
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.stick{
+    position: absolute;
+    width: 100px; /* Use only border style */
+    height: 10px;
+    border: 1px inset;
+    //background-color: black;
+    background-image: url("mybrick.jpg");
+    display: inline-block;
+    margin:0px;
+}
+
+.ball{
+    position: absolute;
+    width: 5px; /* Use only border style */
+    height: 5px;
+    //border: 1px inset;
+    background-color: red;
+    display: inline-block;
+    margin:0px;
+}
+
+#container{
+    width: 700px; /* Use only border style */
+    height: 400px;
+    border: 1px inset;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+}
+
+#info{
+    width: 200px;
+    height: 260px;
+    border: 1px inset;
+    display: inline-block;
+    position: absolute;
+    left: 1000px;
+    background-image: url("mybrick.jpg");
+    -webkit-background-size:;
+    background-size: auto;
+    color: white;
+    text-align: center;
+
+}
+
+#info h2,#info h3{
+    display: inline-block;
+}
